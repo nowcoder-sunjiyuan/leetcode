@@ -1,0 +1,53 @@
+package com.sjiyuan.array;
+
+/**
+ * @ClassName Search2DMatrix2_240
+ * @Description TODO 搜索二位矩阵2（二维数组）
+ * @Author sjy
+ * @Date 2020/1/5 20:23
+ * @Version 1.0
+ **/
+public class Search2DMatrix2_240 {
+    public boolean searchMatrix(int[][] matrix, int target) {
+
+        int length = matrix.length;
+        int i, j;
+
+        /**
+         * [
+         *   [1,   4,  7, 11, 15],
+         *   [2,   5,  8, 12, 19],
+         *   [3,   6,  9, 16, 22],
+         *   [10, 13, 14, 17, 24],
+         *   [18, 21, 23, 26, 30]
+         * ]
+         * 思想：
+         * 从右上角开始，如果
+         * 相等：查找到
+         * 大于target：说明所在那一列，都会大于target
+         * 小于target：说明所在那一行，都会小于target
+         */
+        for (i = 0, j = length - 1; i < length && j >= 0;) {
+            if (matrix[i][j] == target) {
+                return true;
+            } else if (matrix[i][j] < target) {
+                i = i + 1;
+            } else {
+                j = j - 1;
+            }
+        }
+        return false;
+    }
+
+    public static void main(String args[]) {
+        int[][] matrix = {
+                {1, 4, 7, 11, 15},
+                {2, 5, 8, 12, 19},
+                {3, 6, 9, 16, 22},
+                {10, 13, 14, 17, 24},
+                {18, 21, 23, 26, 30}
+        };
+        Search2DMatrix2_240 s = new Search2DMatrix2_240();
+        System.out.println("是否存在：" + s.searchMatrix(matrix, 31));
+    }
+}
