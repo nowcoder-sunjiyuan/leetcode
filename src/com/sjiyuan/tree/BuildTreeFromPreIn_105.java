@@ -3,7 +3,7 @@ package com.sjiyuan.tree;
 
 /**
  * @ClassName BuildTreeFromPreIn_105
- * @Description TODO 从前序与中序序列构造二叉树（不会）
+ * @Description TODO 从前序与中序序列构造二叉树（剑指offer）
  * @Author sjy
  * @Date 2020/1/5 20:58
  * @Version 1.0
@@ -12,6 +12,7 @@ public class BuildTreeFromPreIn_105 {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         TreeNode treeNode = new TreeNode();
+        if(preorder.length == 0) return null;
         buildRecursion(treeNode, preorder, inorder, 0, preorder.length - 1, 0, inorder.length - 1);
 
         return treeNode;
@@ -41,8 +42,8 @@ public class BuildTreeFromPreIn_105 {
     }
 
     public static void main(String args[]) {
-        int[] preorder = {3, 9, 20, 15, 7};
-        int[] inorder = {9, 3, 15, 20, 7};
+        int[] preorder = {};
+        int[] inorder = {};
         BuildTreeFromPreIn_105 b = new BuildTreeFromPreIn_105();
         b.buildTree(preorder, inorder);
     }

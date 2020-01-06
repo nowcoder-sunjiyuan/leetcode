@@ -17,5 +17,8 @@ BEGIN
   );
 END
 
+# 178
+select a.score score,( select count(distinct(score)) from scores b where b.score >= a.score ) as rank from scores a order by score desc;
+
 
 
