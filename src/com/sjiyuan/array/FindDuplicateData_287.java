@@ -2,7 +2,7 @@ package com.sjiyuan.array;
 
 /**
  * @ClassName FindDuplicateData_287
- * @Description TODO
+ * @Description TODO 寻找重复数
  * @Author sjy
  * @Date 2020/1/1 17:41
  * @Version 1.0

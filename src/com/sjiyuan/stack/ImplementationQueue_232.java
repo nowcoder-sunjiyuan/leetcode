@@ -32,14 +32,14 @@ public class ImplementationQueue_232 {
      * Removes the element from in front of queue and returns that element.
      */
     public int pop() {
-        if (!stack_1.isEmpty()) {
-            return stack_1.pop();
+        if (!stack_2.isEmpty()) {
+            return stack_2.pop();
         } else {
-            while (!stack_2.isEmpty()) {
-                Integer temp = stack_2.pop();
-                stack_1.push(temp);
+            while (!stack_1.isEmpty()) {
+                Integer temp = stack_1.pop();
+                stack_2.push(temp);
             }
-            return stack_1.pop();
+            return stack_2.pop();
         }
     }
 
@@ -47,14 +47,14 @@ public class ImplementationQueue_232 {
      * Get the front element.
      */
     public int peek() {
-        if (!stack_1.isEmpty()) {
-            return stack_1.peek();
+        if (!stack_2.isEmpty()) {
+            return stack_2.peek();
         } else {
-            while (!stack_2.isEmpty()) {
-                Integer temp = stack_2.pop();
-                stack_1.push(temp);
+            while (!stack_1.isEmpty()) {
+                Integer temp = stack_1.pop();
+                stack_2.push(temp);
             }
-            return stack_1.peek();
+            return stack_2.peek();
         }
     }
 
