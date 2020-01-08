@@ -25,4 +25,7 @@ SELECT distinct(l1.num) AS ConsecutiveNums
 FROM logs l1, logs l2, logs l3
 WHERE l1.id = l2.id - 1 AND l2.id = l3.id - 1 AND l1.num = l2.num AND l2.num = L3.num;
 
+# 181
+select e1.name Employee from employee e1, employee e2 where e1.managerid = e2.id and e1.salary > e2.salary;
+
 

@@ -36,7 +36,8 @@ public class ImplementationStack_225 {
      * Removes the element on top of the stack and returns that element.
      */
     public int pop() {
-        for (int i = 1; i < queue_1.size(); i++) {
+        int size = queue_1.size();
+        for (int i = 1; i < size; i++) {
             Integer poll = queue_1.poll();
             queue_2.offer(poll);
         }
@@ -51,15 +52,17 @@ public class ImplementationStack_225 {
      * Get the top element.
      */
     public int top() {
-        for (int i = 1; i < queue_1.size(); i++) {
+        int size = queue_1.size();
+        for (int i = 1; i < size; i++) {
             Integer poll = queue_1.poll();
             queue_2.add(poll);
         }
+
         Queue<Integer> temp = queue_1;
         queue_1 = queue_2;
         queue_2 = temp;
 
-        Integer data = queue_1.element();
+        Integer data = queue_2.poll();
         if (data != null) {
             queue_1.offer(data);
         }
@@ -72,5 +75,15 @@ public class ImplementationStack_225 {
      */
     public boolean empty() {
         return queue_1.isEmpty();
+    }
+
+
+    public static void main(String args[]) {
+        ImplementationStack_225 i = new ImplementationStack_225();
+        i.push(1);
+        i.push(2);
+        i.push(3);
+        System.out.println(i.top());
+
     }
 }
