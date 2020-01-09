@@ -65,8 +65,9 @@ public class WordSearch_79 {
                         return true;
                     }
                 }
-
             }
+            //退回去之前，先把这个点置回false，未访问过
+            marked[i][j] = false;
         }
         return false;
     }
@@ -87,13 +88,13 @@ public class WordSearch_79 {
 
     public static void main(String args[]) {
         char[][] board = {
-                        {'A', 'B', 'C', 'E'},
-                        {'S', 'F', 'C', 'S'},
-                        {'A', 'D', 'E', 'E'}
+                        {'C', 'A', 'A'},
+                        {'A', 'A', 'A'},
+                        {'B', 'C', 'D'}
                 };
 
         WordSearch_79 w = new WordSearch_79();
-        System.out.println(w.exist(board, "CCEA"));
+        System.out.println(w.exist(board, "AAB"));
 
     }
 }
