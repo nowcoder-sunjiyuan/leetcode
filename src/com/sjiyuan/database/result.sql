@@ -36,3 +36,13 @@ select email Email from (select email,count(1) count from person group by email)
 ## 方法三:(最简洁的方法)
 select Email from Person group by Email having count(Email) > 1;
 
+# 183
+select Name Customers from customers c left join orders o on c.id = o.customerid where o.id is NULL
+
+# 184
+SELECT d.name Department,e.name Employee,e.salary Salary
+FROM employee e,department d
+WHERE e.departmentid = d.id
+AND (d.id, e.salary) IN (
+    select departmentid,Max(salary) from employee group by departmentid
+);

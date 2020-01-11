@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/bit/NumOfBits1_191.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteListNode_237.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/备份" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/RegularExpressionMatch_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/RegularExpressionMatch_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/知识点" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,49 +30,52 @@
     <session id="-1526375322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="11" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="2" />
-          <entry key="java" value="58" />
+          <entry key="java" value="68" />
           <entry key="sql" value="3" />
           <entry key="剑指offer" value="1" />
+          <entry key="备份" value="1" />
           <entry key="知识点" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="58" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="68" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="61" />
-          <entry key="java" value="28655" />
-          <entry key="sql" value="440" />
-          <entry key="txt" value="251" />
-          <entry key="剑指offer" value="344" />
-          <entry key="知识点" value="31" />
+          <entry key="dummy" value="71" />
+          <entry key="java" value="32768" />
+          <entry key="sql" value="456" />
+          <entry key="txt" value="285" />
+          <entry key="剑指offer" value="671" />
+          <entry key="备份" value="52" />
+          <entry key="知识点" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28655" />
-          <entry key="PLAIN_TEXT" value="687" />
-          <entry key="SQL" value="440" />
+          <entry key="JAVA" value="32768" />
+          <entry key="PLAIN_TEXT" value="1111" />
+          <entry key="SQL" value="456" />
         </counts>
       </usages-collector>
     </session>
@@ -76,63 +83,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="77" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/InorderTraversal_94.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/知识点">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="550">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/RegularExpressionMatch_10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -140,35 +139,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/database/result.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="519">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/bit/NumOfBits1_191.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Fibonacci_509.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="127">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -230,12 +229,20 @@
         <option value="$PROJECT_DIR$/src/com/sjiyuan/array/findRotationSortArray_153.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/知识点" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/bit/NumOfBits1_191.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/知识点" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/deleteListNode_237.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/dp/RegularExpressionMatch_10.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/备份" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java" />
       </list>
     </option>
   </component>
@@ -254,8 +261,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="53" />
+    <option name="x" value="300" />
+    <option name="y" value="86" />
     <option name="width" value="1470" />
     <option name="height" value="1103" />
   </component>
@@ -279,6 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -298,18 +306,94 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="bit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="recall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578583457271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578754867423" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -317,6 +401,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sjiyuan.dp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -330,26 +419,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumOfBits1_191">
-    <configuration name="FindRotationSortArray_153" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.array.FindRotationSortArray_153" />
+  <component name="RunManager" selected="Application.OddANdEvenSortArray_905">
+    <configuration name="EffectiveFigure_65" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.string.EffectiveFigure_65" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImplementationStack_225" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.queue.ImplementationStack_225" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjiyuan.queue.*" />
+          <option name="PATTERN" value="com.sjiyuan.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +459,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearch_79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.recall.WordSearch_79" />
+    <configuration name="OddANdEvenSortArray_905" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.array.OddANdEvenSortArray_905" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.recall.*" />
+          <option name="PATTERN" value="com.sjiyuan.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pow_50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.math.Pow_50" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjiyuan.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,19 +486,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindRotationSortArray_153" />
-      <item itemvalue="Application.ImplementationStack_225" />
-      <item itemvalue="Application.WordSearch_79" />
       <item itemvalue="Application.IntegerPartition_343" />
       <item itemvalue="Application.NumOfBits1_191" />
+      <item itemvalue="Application.Pow_50" />
+      <item itemvalue="Application.EffectiveFigure_65" />
+      <item itemvalue="Application.OddANdEvenSortArray_905" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddANdEvenSortArray_905" />
+        <item itemvalue="Application.EffectiveFigure_65" />
+        <item itemvalue="Application.Pow_50" />
         <item itemvalue="Application.NumOfBits1_191" />
         <item itemvalue="Application.IntegerPartition_343" />
-        <item itemvalue="Application.WordSearch_79" />
-        <item itemvalue="Application.ImplementationStack_225" />
-        <item itemvalue="Application.FindRotationSortArray_153" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +541,10 @@
       <workItem from="1578317106722" duration="6142000" />
       <workItem from="1578401172668" duration="9245000" />
       <workItem from="1578472708766" duration="14536000" />
-      <workItem from="1578569333797" duration="8729000" />
+      <workItem from="1578569333797" duration="9173000" />
+      <workItem from="1578637869558" duration="9160000" />
+      <workItem from="1578727656546" duration="4804000" />
+      <workItem from="1578742786926" duration="9546000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -503,17 +595,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578498080431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改79 添加191,343,182&#10;修改：单词搜索&#10;添加：位1的个数，整数拆分，查找重复的电子邮箱">
+      <created>1578583699689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578583699690</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155108000" />
+    <option name="totallyTimeSpent" value="179062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,13 +620,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31914893" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3035461" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33617023" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49787235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33617023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.29219857" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3858478" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -624,7 +723,8 @@
     <MESSAGE value="修改240,105 添加509,232,178" />
     <MESSAGE value="修改232 添加180,225,912" />
     <MESSAGE value="修改225 添加153,79,181&#10;修改：双队列实现栈&#10;添加：旋转排序数组中的最小值，单词搜索，超过经理收入的员工" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改225 添加153,79,181&#10;修改：双队列实现栈&#10;添加：旋转排序数组中的最小值，单词搜索，超过经理收入的员工" />
+    <MESSAGE value="修改79 添加191,343,182&#10;修改：单词搜索&#10;添加：位1的个数，整数拆分，查找重复的电子邮箱" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改79 添加191,343,182&#10;修改：单词搜索&#10;添加：位1的个数，整数拆分，查找重复的电子邮箱" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,13 +739,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41492">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/AddTwoNumbers_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -703,13 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/RegularExpressionMatch_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -833,6 +919,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
@@ -855,6 +948,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/知识点">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteListNode_237.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Fibonacci_509.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -862,52 +993,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/database/result.sql">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="352">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/知识点">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/RegularExpressionMatch_10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="152">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/bit/NumOfBits1_191.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="127">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/database/result.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/RegularExpressionMatch_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
