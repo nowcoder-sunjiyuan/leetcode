@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteKFromBottom_19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/CircularList1_141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/ListMiddle_876.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,25 +25,25 @@
     <session id="-1526375322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="11" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.8" value="12" />
+          <entry key="project.open.time.9" value="10" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="2" />
-          <entry key="java" value="71" />
+          <entry key="java" value="76" />
           <entry key="sql" value="3" />
-          <entry key="剑指offer" value="2" />
+          <entry key="剑指offer" value="4" />
           <entry key="备份" value="1" />
           <entry key="知识点" value="1" />
         </counts>
@@ -50,26 +51,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="71" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="76" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="71" />
-          <entry key="java" value="35719" />
+          <entry key="dummy" value="78" />
+          <entry key="java" value="38900" />
           <entry key="sql" value="465" />
-          <entry key="txt" value="387" />
-          <entry key="剑指offer" value="716" />
+          <entry key="txt" value="403" />
+          <entry key="剑指offer" value="823" />
           <entry key="备份" value="52" />
           <entry key="知识点" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="35719" />
-          <entry key="PLAIN_TEXT" value="1258" />
+          <entry key="JAVA" value="38900" />
+          <entry key="PLAIN_TEXT" value="1388" />
           <entry key="SQL" value="465" />
         </counts>
       </usages-collector>
@@ -80,17 +81,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="547">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteKFromBottom_19.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/CircularList1_141.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="105">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_82.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -99,8 +109,9 @@
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
+                <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
@@ -108,19 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/ListMiddle_876.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+            <state relative-caret-position="83">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -128,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/database/result.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="395">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -138,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -146,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="413">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -156,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteListNode_237.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -234,14 +236,18 @@
         <option value="$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/deleteListNode_237.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/dp/RegularExpressionMatch_10.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/备份" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteKFromBottom_19.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/CircularList_141.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/CircularList1_141.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_82.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/ListMiddle_876.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
       </list>
     </option>
   </component>
@@ -259,10 +265,16 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="168" />
-    <option name="y" value="57" />
-    <option name="width" value="1897" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1409" />
     <option name="height" value="1103" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -286,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,13 +397,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578842967455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579271459795" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -418,7 +430,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteKFromBottom_19">
+  <component name="RunManager" selected="Application.DeleteDuplicateListNode_82">
+    <configuration name="DeleteDuplicateListNode_82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.list.DeleteDuplicateListNode_82" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjiyuan.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteKFromBottom_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sjiyuan.list.DeleteKFromBottom_19" />
       <module name="LeetCode" />
@@ -438,19 +463,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sjiyuan.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumOfBits1_191" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.bit.NumOfBits1_191" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjiyuan.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -485,19 +497,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumOfBits1_191" />
       <item itemvalue="Application.Pow_50" />
       <item itemvalue="Application.EffectiveFigure_65" />
       <item itemvalue="Application.OddANdEvenSortArray_905" />
       <item itemvalue="Application.DeleteKFromBottom_19" />
+      <item itemvalue="Application.DeleteDuplicateListNode_82" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteDuplicateListNode_82" />
         <item itemvalue="Application.DeleteKFromBottom_19" />
         <item itemvalue="Application.EffectiveFigure_65" />
         <item itemvalue="Application.OddANdEvenSortArray_905" />
         <item itemvalue="Application.Pow_50" />
-        <item itemvalue="Application.NumOfBits1_191" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +556,12 @@
       <workItem from="1578637869558" duration="9160000" />
       <workItem from="1578727656546" duration="4804000" />
       <workItem from="1578742786926" duration="10210000" />
-      <workItem from="1578801147271" duration="20941000" />
+      <workItem from="1578801147271" duration="20985000" />
+      <workItem from="1578994673030" duration="8412000" />
+      <workItem from="1579098260115" duration="3139000" />
+      <workItem from="1579164639226" duration="1959000" />
+      <workItem from="1579176547831" duration="5947000" />
+      <workItem from="1579258568330" duration="8773000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -609,17 +626,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578755047133</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加19,196">
+      <created>1578842989469</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578842989469</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200667000" />
+    <option name="totallyTimeSpent" value="228941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -627,9 +651,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33617023" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35602838" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34042552" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1716312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2680851" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -643,10 +667,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23187108" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
@@ -732,7 +756,8 @@
     <MESSAGE value="修改225 添加153,79,181&#10;修改：双队列实现栈&#10;添加：旋转排序数组中的最小值，单词搜索，超过经理收入的员工" />
     <MESSAGE value="修改79 添加191,343,182&#10;修改：单词搜索&#10;添加：位1的个数，整数拆分，查找重复的电子邮箱" />
     <MESSAGE value="添加183,184,905,83,237,50,65&#10;添加：从不订购的客户，部门工资最高的员工，奇偶排序数组，删除重复链表节点1，删除链表节点（O(1)），pow()函数实现，判断是否有效数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加183,184,905,83,237,50,65&#10;添加：从不订购的客户，部门工资最高的员工，奇偶排序数组，删除重复链表节点1，删除链表节点（O(1)），pow()函数实现，判断是否有效数字" />
+    <MESSAGE value="添加19,196" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加19,196" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,10 +1031,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteKFromBottom_19.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="352">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3454">
+          <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteListNode_237.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1020,62 +1066,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/OddANdEvenSortArray_905.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/database/result.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteListNode_237.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="395">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
+            <element signature="e#217#218#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/string/EffectiveFigure_65.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteKFromBottom_19.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_82.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="267">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/database/result.sql">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/ListMiddle_876.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="83">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/CircularList1_141.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="547">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
         </state>
       </provider>
     </entry>
