@@ -13,6 +13,8 @@ public class ReversalList_206 {
         ListNode front = head;
 
         ListNode middle = head.next;
+
+        head.next = null;
         if (middle == null) return head;
 
         ListNode back = middle.next;
@@ -30,5 +32,17 @@ public class ReversalList_206 {
         middle.next = front;
 
         return middle;
+    }
+
+    public static void main(String args[]) {
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+
+        ReversalList_206 r = new ReversalList_206();
+        ListNode listNode = r.reverseList(head);
+
     }
 }

@@ -20,8 +20,10 @@ public class MergeList_21 {
 
         if (l1.val < l2.val) {
             result = l1;
+            node1 = node1.next;
         } else {
             result = l2;
+            node2 = node2.next;
         }
         //新链表的最后一个节点
         pre = result;
@@ -46,5 +48,21 @@ public class MergeList_21 {
         }
 
         return result;
+    }
+
+    public static void main(String args[]) {
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(2);
+        l1.next.next = new ListNode(4);
+
+        ListNode l2 = new ListNode(1);
+        l2.next = new ListNode(3);
+        l2.next.next = new ListNode(4);
+
+        MergeList_21 m = new MergeList_21();
+        ListNode listNode = m.mergeTwoLists(l1, l2);
+
+
+
     }
 }
