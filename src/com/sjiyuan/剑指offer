@@ -31,3 +31,6 @@
 面试25：合并两个有序链表，leetcode的21题
 面试26：树的子结构，leetcode的100题，leetcode的572题
 面试27：翻转二叉树，leetcode的226题
+面试28：对称的二叉树，leetcode的101题
+面试29：顺时针打印矩阵，leetcode的54题
+面试30：包含min函数的栈，leetcode的155题
