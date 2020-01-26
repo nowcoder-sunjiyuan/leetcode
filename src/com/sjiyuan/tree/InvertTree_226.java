@@ -17,7 +17,7 @@ public class InvertTree_226 {
 
         Stack<TreeNode> stack = new Stack<>();
 
-        while (p != null || stack.isEmpty()) {
+        while (p != null || !stack.isEmpty()) {
             if (p != null) {
                 stack.push(p);
                 p = p.left;
@@ -40,5 +40,19 @@ public class InvertTree_226 {
             }
         }
         return root;
+    }
+
+
+    public static void main(String args[]) {
+        TreeNode root = new TreeNode(4);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(7);
+        root.left.left = new TreeNode(1);
+        root.left.right = new TreeNode(3);
+        root.right.left = new TreeNode(6);
+        root.right.right = new TreeNode(9);
+
+        InvertTree_226 invertTree_226 = new InvertTree_226();
+        TreeNode treeNode = invertTree_226.invertTree(root);
     }
 }

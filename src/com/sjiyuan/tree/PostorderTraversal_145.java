@@ -27,7 +27,11 @@ public class PostorderTraversal_145 {
         list.add(node.val);
     }
 
-
+    /**
+     * 后序遍历的非递归算法
+     * @param root
+     * @return
+     */
     public List<Integer> postorder(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> result = new ArrayList<>();

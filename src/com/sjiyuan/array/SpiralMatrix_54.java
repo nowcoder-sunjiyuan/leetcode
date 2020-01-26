@@ -15,6 +15,7 @@ public class SpiralMatrix_54 {
      * 我的思想：
      * 1.方法打印矩阵的一圈
      * 2.更新打印的矩阵起始范围，再打印
+     *
      * @param matrix
      * @return
      */
@@ -22,16 +23,16 @@ public class SpiralMatrix_54 {
         List<Integer> result = new ArrayList<>();
 
         int rowLength = matrix.length;
-        if(rowLength == 0) return null;
+        if (rowLength == 0) return result;
         int columnLength = matrix[0].length;
-        if(columnLength == 0) return null;
+        if (columnLength == 0) return result;
 
         int rowStart = 0;
         int rowEnd = rowLength - 1;
         int columnStart = 0;
         int columnEnd = columnLength - 1;
 
-        while(rowStart <= rowEnd && columnStart <= columnEnd){
+        while (rowStart <= rowEnd && columnStart <= columnEnd) {
             addCircularData(matrix, rowStart, rowEnd, columnStart, columnEnd, result);
             rowStart++;
             rowEnd--;
@@ -51,6 +52,7 @@ public class SpiralMatrix_54 {
      * 4.打印顺时针的左边
      */
     public void addCircularData(int[][] matrix, int rowStart, int rowEnd, int columnStart, int columnEnd, List<Integer> list) {
+
         for (int i = columnStart; i <= columnEnd; i++) {
             list.add(matrix[rowStart][i]);
         }
@@ -59,12 +61,25 @@ public class SpiralMatrix_54 {
             list.add(matrix[i][columnEnd]);
         }
 
-        for (int i = columnEnd - 1; i >= columnStart; i--) {
-            list.add(matrix[rowEnd][i]);
+        //如果只有一行，就不需要底下那一层打印了
+        if (rowStart != rowEnd) {
+            for (int i = columnEnd - 1; i >= columnStart; i--) {
+                list.add(matrix[rowEnd][i]);
+            }
         }
 
-        for (int i = rowEnd - 1; i >= rowStart + 1; i--) {
-            list.add(matrix[i][columnStart]);
+        //如果只有一列，就不需要左边的那一层打印了
+        if (columnStart != columnEnd) {
+            for (int i = rowEnd - 1; i >= rowStart + 1; i--) {
+                list.add(matrix[i][columnStart]);
+            }
         }
+
+    }
+
+    public static void main(String args[]) {
+        int[][] matrix = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+        SpiralMatrix_54 spiralMatrix_54 = new SpiralMatrix_54();
+        List<Integer> integers = spiralMatrix_54.spiralOrder(matrix);
     }
 }

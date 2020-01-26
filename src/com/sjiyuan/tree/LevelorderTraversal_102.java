@@ -21,9 +21,7 @@ public class LevelorderTraversal_102 {
      */
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();
-        //List<Integer> row = new ArrayList<>();
 
-        //ArrayQueue<TreeNode> queue = new ArrayQueue<TreeNode>();
         Queue<TreeNode> queue = new LinkedList<>();
         if(root == null) return list;
 
@@ -31,6 +29,7 @@ public class LevelorderTraversal_102 {
         while (!queue.isEmpty()) {
             int rowLength = queue.size();
             List<Integer> row = new ArrayList<>();
+            //跟不分行的区别，其实就是提前统计好每一行的个数，用循环控制
             while (rowLength > 0) {
                 TreeNode poll = queue.poll();
                 row.add(poll.val);
