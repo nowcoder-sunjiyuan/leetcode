@@ -25,7 +25,7 @@ public class MinStack_155 {
 
     public void push(int x) {
         stack.add(x);
-        if(assist.peek() == null || assist.peek() >= x){
+        if(assist.isEmpty() || assist.peek() >= x){
             assist.add(x);
         }else{
             assist.add(assist.peek());

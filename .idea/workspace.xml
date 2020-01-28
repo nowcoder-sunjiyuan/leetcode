@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/CopyRandomList_138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum1_112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum2_113.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/array/SpiralMatrix_54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/array/SpiralMatrix_54.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/InvertTree_226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/InvertTree_226.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/LevelorderTraversal_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/LevelorderTraversal_102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,9 +27,9 @@
     <session id="-1526375322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="8" />
+          <entry key="project.open.time.10" value="11" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -38,16 +38,16 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="13" />
           <entry key="project.open.time.9" value="11" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="WordSubstitution_648" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="97" />
+          <entry key="java" value="120" />
           <entry key="sql" value="3" />
-          <entry key="剑指offer" value="5" />
+          <entry key="剑指offer" value="7" />
           <entry key="备份" value="2" />
           <entry key="知识点" value="1" />
         </counts>
@@ -55,26 +55,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="97" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JAVA" value="120" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="84" />
-          <entry key="java" value="49531" />
+          <entry key="java" value="51896" />
           <entry key="sql" value="465" />
-          <entry key="txt" value="616" />
-          <entry key="剑指offer" value="1271" />
+          <entry key="txt" value="662" />
+          <entry key="剑指offer" value="1409" />
           <entry key="备份" value="52" />
           <entry key="知识点" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="49531" />
-          <entry key="PLAIN_TEXT" value="2055" />
+          <entry key="JAVA" value="51896" />
+          <entry key="PLAIN_TEXT" value="2239" />
           <entry key="SQL" value="465" />
         </counts>
       </usages-collector>
@@ -83,31 +83,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum2_113.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="1276">
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="569">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/LevelorderTraversal_102.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/CopyRandomList_138.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="237">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum1_112.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -115,71 +146,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="971">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/MostArea_11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/Reverse_7.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/InvertTree_226.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/SpiralMatrix_54.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/ReversalList_206.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="44" column="48" selection-start-line="37" selection-start-column="8" selection-end-line="44" selection-end-column="48" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -212,10 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/MostArea_11.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/test.html" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/array/DuplicateData_442.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/AddTwoNumbers_2.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/InorderTraversal_94.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/PreorderTraversal_144.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/string/WordSubstitution_648.java" />
@@ -255,13 +246,17 @@
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/SameTree_100.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/ReversalList_92.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/InvertTree_226.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/array/SpiralMatrix_54.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/LevelorderTraversal_102.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum1_112.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum2_113.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/CopyRandomList_138.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
       </list>
     </option>
@@ -287,9 +282,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="62" />
-    <option name="width" value="1410" />
+    <option name="x" value="41" />
+    <option name="y" value="175" />
+    <option name="width" value="1590" />
     <option name="height" value="1103" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -312,7 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,14 +335,21 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -361,15 +362,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="102&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/LevelorderTraversal_102.java&#10;101&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/SymmetricTree_101.java&#10;54&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/array/SpiralMatrix_54.java&#10;226&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/InvertTree_226.java" />
+    <property name="SearchEverywhereHistoryKey" value="103&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java&#10;946&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/stack/ValidateStackSequences_946.java&#10;101&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/SymmetricTree_101.java&#10;155&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/stack/MinStack_155.java&#10;102&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/LevelorderTraversal_102.java&#10;54&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/array/SpiralMatrix_54.java&#10;226&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/InvertTree_226.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580034685296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580224989095" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -395,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidateStackSequences_946">
+  <component name="RunManager" selected="Application.PathSum2_113">
     <configuration name="InvertTree_226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sjiyuan.tree.InvertTree_226" />
       <module name="LeetCode" />
@@ -409,12 +411,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeList_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.list.MergeList_21" />
+    <configuration name="PathSum2_113" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.tree.PathSum2_113" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.list.*" />
+          <option name="PATTERN" value="com.sjiyuan.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,19 +464,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeList_21" />
       <item itemvalue="Application.ReversalList_92" />
       <item itemvalue="Application.InvertTree_226" />
       <item itemvalue="Application.SpiralMatrix_54" />
       <item itemvalue="Application.ValidateStackSequences_946" />
+      <item itemvalue="Application.PathSum2_113" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum2_113" />
         <item itemvalue="Application.ValidateStackSequences_946" />
         <item itemvalue="Application.SpiralMatrix_54" />
         <item itemvalue="Application.InvertTree_226" />
         <item itemvalue="Application.ReversalList_92" />
-        <item itemvalue="Application.MergeList_21" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +534,10 @@
       <workItem from="1579747008146" duration="16982000" />
       <workItem from="1579859539603" duration="1288000" />
       <workItem from="1579942202834" duration="9644000" />
-      <workItem from="1580006834119" duration="11895000" />
+      <workItem from="1580006834119" duration="18966000" />
+      <workItem from="1580100317720" duration="830000" />
+      <workItem from="1580184075320" duration="599000" />
+      <workItem from="1580215498557" duration="7202000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -632,17 +637,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579964320533</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修改226,145,54添加946,103&#10;946：验证栈序列&#10;103：之字形访问树">
+      <created>1580034722245</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580034722245</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288750000" />
+    <option name="totallyTimeSpent" value="304452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21313673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -651,12 +663,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35602838" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1248227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22553192" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1248227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41702127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.29787233" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4212766" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -761,17 +773,13 @@
     <MESSAGE value="添加142,21,206&#10;142：链表中存在环的起始节点&#10;21：合并两个有序链表&#10;206：反转链表" />
     <MESSAGE value="修改21,206,添加100,92,572&#10;100：相同的树&#10;92：反转链表2&#10;572：另一棵的子树" />
     <MESSAGE value="修改145,添加155,226,101,54&#10;155：最小栈&#10;226：反转二叉树&#10;101：对称二叉树&#10;54：螺旋矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改145,添加155,226,101,54&#10;155：最小栈&#10;226：反转二叉树&#10;101：对称二叉树&#10;54：螺旋矩阵" />
+    <MESSAGE value="修改226,102,145添加946,103&#10;946：验证栈序列&#10;103：之字形访问树" />
+    <MESSAGE value="修改226,145,54添加946,103&#10;946：验证栈序列&#10;103：之字形访问树" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改226,145,54添加946,103&#10;946：验证栈序列&#10;103：之字形访问树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sjiyuan/list/ReversalList_92.java</url>
           <line>34</line>
@@ -784,143 +792,10 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sjiyuan/array/SpiralMatrix_54.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/MostArea_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/Reverse_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/DuplicateData_442.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Search2DMatrix2_240.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/ImplementationQueue_232.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108812">
-          <caret line="5397" column="30" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindDuplicateData_287.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BuildTreeFromPreIn_105.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/sort/SortArray_912.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="77" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/InorderTraversal_94.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/知识点">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Fibonacci_509.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/RegularExpressionMatch_10.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/RegularExpressionMatch_10.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1045,10 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,20 +937,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/IsSubTree_572.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="42" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,71 +965,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/InvertTree_226.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/LevelorderTraversal_102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/InvertTree_226.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Search2DMatrix2_240.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindDuplicateData_287.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/SpiralMatrix_54.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Fibonacci_509.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/Covert_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/AddTwoNumbers_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/FindMedianSortedArrays_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/LengthOfLongestSubstring_3.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="1254">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/LongestPalindrome_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/MostArea_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/Reverse_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/LevelorderTraversal_102.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum1_112.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="484">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PathSum2_113.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="88">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/CopyRandomList_138.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="237">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>

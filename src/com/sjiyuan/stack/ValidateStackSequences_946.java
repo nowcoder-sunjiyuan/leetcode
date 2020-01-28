@@ -10,11 +10,20 @@ import java.util.Stack;
  * @Version 1.0
  **/
 public class ValidateStackSequences_946 {
+
+    /**
+     * 自己写的方法，可能会有简便的，看题解
+     * @param pushed
+     * @param popped
+     * @return
+     */
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> stack = new Stack<>();
 
         int length = pushed.length;
         if (pushed.length != popped.length) return false;
+
+        if(length == 0) return true;
 
         int i = 0, j = 0;
         while (true) {
