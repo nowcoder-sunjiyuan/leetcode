@@ -17,6 +17,7 @@ public class PathSum2_113 {
         List<Integer> path = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
 
+        if(root == null) return result;
         recursion(root, sum, path, result);
 
         return result;
@@ -25,14 +26,22 @@ public class PathSum2_113 {
     public void recursion(TreeNode root, int sum, List<Integer> list, List<List<Integer>> result) {
 
         list.add(root.val);
-
+        /**
+         * 如果，左子树，右子树均为null，说明是叶子节点。
+         * 此时如果需要构成sum与root.val相等，则此路径符合条件
+         */
         if(root.left == null && root.right == null){
             if (sum == root.val) {
                 List<Integer> temp = new ArrayList<>(list);
                 result.add(temp);
             }
             return;
+
         }else if(root.left != null && root.right != null){
+            /**
+             * 如果左右子树均存在，递归判断是否子树是否符合路径和为 sum-root.val
+             * 注意递归出来后，需要删掉list末尾的节点
+             */
             recursion(root.left, sum - root.val, list, result);
             list.remove(list.size() - 1);
             recursion(root.right, sum - root.val, list, result);
