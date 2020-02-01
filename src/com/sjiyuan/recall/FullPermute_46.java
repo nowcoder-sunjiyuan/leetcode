@@ -19,7 +19,7 @@ public class FullPermute_46 {
      * @return
      */
     public List<List<Integer>> permute(int[] nums) {
-        //用temp暂存新的排列
+        //用temp暂存新的排列，result是最终结果
         List<List<Integer>> temp = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
 
@@ -42,7 +42,6 @@ public class FullPermute_46 {
             result = temp;
             temp = new ArrayList<>();
         }
-
 
         return result;
     }
