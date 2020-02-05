@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/heap/MedianFinder_295.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/math/CountDigitOne_233.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/math/FindNthDigit_400.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/math/Ugly2_264.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/math/Ugly_263.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/LengthOfLongestSubstring_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/LengthOfLongestSubstring_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +17,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$FindNthDigit_400.ic" NAME="FindNthDigit_400 Coverage Results" MODIFIED="1580875933737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sjiyuan.math.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/LeetCode$FindDuplicateData_287.ic" NAME="FindDuplicateData_287 Coverage Results" MODIFIED="1577877887193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.sjiyuan.array.*</FILTER>
     </SUITE>
@@ -26,7 +28,7 @@
     <session id="-1526375322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="59" />
+          <entry key="project.closed" value="62" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="13" />
           <entry key="project.open.time.11" value="5" />
@@ -36,16 +38,16 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="14" />
+          <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="19" />
-          <entry key="project.opened" value="62" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="WordSubstitution_648" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="147" />
+          <entry key="java" value="151" />
           <entry key="sql" value="3" />
           <entry key="剑指offer" value="7" />
           <entry key="备份" value="2" />
@@ -55,7 +57,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="147" />
+          <entry key="JAVA" value="151" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="SQL" value="3" />
         </counts>
@@ -63,18 +65,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="90" />
-          <entry key="java" value="68089" />
+          <entry key="java" value="71126" />
           <entry key="sql" value="465" />
           <entry key="txt" value="783" />
-          <entry key="剑指offer" value="1746" />
+          <entry key="剑指offer" value="1936" />
           <entry key="备份" value="52" />
           <entry key="知识点" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="68089" />
-          <entry key="PLAIN_TEXT" value="2703" />
+          <entry key="JAVA" value="71126" />
+          <entry key="PLAIN_TEXT" value="2893" />
           <entry key="SQL" value="465" />
         </counts>
       </usages-collector>
@@ -85,44 +87,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="241">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MaxHeap.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Ugly_263.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="123" column="1" lean-forward="true" selection-start-line="4" selection-end-line="123" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="16" column="26" selection-start-line="11" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Ugly2_264.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="193">
+              <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/LengthOfLongestSubstring_3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/FindNthDigit_400.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/CountDigitOne_233.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -130,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="100" column="32" lean-forward="true" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+            <state relative-caret-position="1892">
+              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -139,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MedianFinder_295.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="990">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -192,10 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/queue/ImplementationStack_225.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/recall/WordSearch_79.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/dp/IntegerPartition_343.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/bit/NumOfBits1_191.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/知识点" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/ListNode.java" />
@@ -241,8 +248,12 @@
         <option value="$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/heap/MedianFinder_295.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/math/CountDigitOne_233.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/dp/LengthOfLongestSubstring_3.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/math/Ugly2_264.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/math/FindNthDigit_400.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/math/Ugly_263.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
       </list>
     </option>
   </component>
@@ -266,11 +277,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="161" />
+    <option name="y" value="78" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -349,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="138&#9;PSI&#9;JAVA://com.sjiyuan.list.CopyRandomList_138&#10;112&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/PathSum1_112.java&#10;103&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java&#10;946&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/stack/ValidateStackSequences_946.java&#10;101&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/SymmetricTree_101.java&#10;155&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/stack/MinStack_155.java&#10;102&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/LevelorderTraversal_102.java&#10;54&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/array/SpiralMatrix_54.java&#10;226&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/InvertTree_226.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580719290414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580883582973" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -375,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDigitOne_233">
+  <component name="RunManager" selected="Application.FindNthDigit_400">
     <configuration name="CountDigitOne_233" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sjiyuan.math.CountDigitOne_233" />
       <module name="LeetCode" />
@@ -389,25 +400,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKthLarge_215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.array.FindKthLarge_215" />
+    <configuration name="FindNthDigit_400" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.math.FindNthDigit_400" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement_169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.array.MajorityElement_169" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjiyuan.array.*" />
+          <option name="PATTERN" value="com.sjiyuan.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,12 +426,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens_51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.recall.NQueens_51" />
+    <configuration name="Ugly2_264" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.math.Ugly2_264" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.recall.*" />
+          <option name="PATTERN" value="com.sjiyuan.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ugly_263" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.math.Ugly_263" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjiyuan.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,19 +453,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MajorityElement_169" />
-      <item itemvalue="Application.NQueens_51" />
-      <item itemvalue="Application.FindKthLarge_215" />
       <item itemvalue="Application.MedianFinder_295" />
       <item itemvalue="Application.CountDigitOne_233" />
+      <item itemvalue="Application.FindNthDigit_400" />
+      <item itemvalue="Application.Ugly_263" />
+      <item itemvalue="Application.Ugly2_264" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNthDigit_400" />
+        <item itemvalue="Application.Ugly2_264" />
+        <item itemvalue="Application.Ugly_263" />
         <item itemvalue="Application.CountDigitOne_233" />
         <item itemvalue="Application.MedianFinder_295" />
-        <item itemvalue="Application.MajorityElement_169" />
-        <item itemvalue="Application.FindKthLarge_215" />
-        <item itemvalue="Application.NQueens_51" />
       </list>
     </recent_temporary>
   </component>
@@ -530,6 +541,9 @@
       <workItem from="1580523978346" duration="21623000" />
       <workItem from="1580611349111" duration="19870000" />
       <workItem from="1580698190987" duration="9308000" />
+      <workItem from="1580811665341" duration="14368000" />
+      <workItem from="1580872169135" duration="6211000" />
+      <workItem from="1580889956971" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -661,13 +675,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390508000" />
+    <option name="totallyTimeSpent" value="413378000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-211" y="100" width="1552" height="840" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18607764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -676,15 +698,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35602838" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15498652" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.11631206" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16737589" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37588653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.21276596" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.21276596" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32765958" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.31914893" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -794,35 +816,26 @@
     <MESSAGE value="修改46，添加215,169,51&#10;215：查找第k大的数&#10;46：多数元素&#10;449：N皇后" />
     <option name="LAST_COMMIT_MESSAGE" value="修改46，添加215,169,51&#10;215：查找第k大的数&#10;46：多数元素&#10;449：N皇后" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Math.pow(10, digit - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result[threePoint] * 3 &lt;= result[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(nextThreeData = result[threePoint] * 3) &lt;= result[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/备份">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/Search2DMatrix2_240.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindRotationSortArray_153.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/FindDuplicateData_287.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
@@ -865,13 +878,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/LengthOfLongestSubstring_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/LengthOfLongestSubstring_3.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1085,6 +1092,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1228" column="63" lean-forward="true" selection-start-line="1228" selection-start-column="63" selection-end-line="1228" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="123" column="1" selection-start-line="4" selection-end-line="123" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/LengthOfLongestSubstring_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/CountDigitOne_233.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MedianFinder_295.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/InorderTraversal_94.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1099,65 +1162,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Ugly_263.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="26" selection-start-line="11" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Ugly2_264.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="241">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MaxHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/FindNthDigit_400.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="123" column="1" lean-forward="true" selection-start-line="4" selection-end-line="123" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="100" column="32" lean-forward="true" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1228" column="63" lean-forward="true" selection-start-line="1228" selection-start-column="63" selection-end-line="1228" selection-end-column="63" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="true" />
-            <element signature="e#46458#46459#0" expanded="true" />
-            <element signature="e#47036#47037#0" expanded="true" />
-            <element signature="e#47092#47093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MedianFinder_295.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/math/CountDigitOne_233.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="233">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>

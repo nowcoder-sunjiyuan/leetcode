@@ -1,4 +1,4 @@
-package com.sjiyuan;
+package com.sjiyuan.dp;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * @ClassName LengthOfLongestSubstring_3
- * @Description TODO
+ * @Description TODO 无重复字符的最长子串
  * @Author sjy
  * @Date 2018/10/24 21:23
  * @Version 1.0
@@ -16,7 +16,6 @@ import java.util.Set;
 public class LengthOfLongestSubstring_3 {
 
     /**
-     * 我的解法
      * 检查每一位开始的字符串，看是否是最长的子串
      * @param s
      * @return
