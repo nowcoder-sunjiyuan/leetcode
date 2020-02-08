@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="添加268,98,700&#10;268：&#10;98：验证二叉树&#10;700：搜索搜索二叉树">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/array/MissingNumber_268.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/IsValidBST_98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/SearchBST_700.java" afterDir="false" />
+    <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/BalancedTree/IsBalanced_110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/MaxDepth_104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/MinDepth_111.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,10 +27,10 @@
     <session id="-1526375322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="65" />
+          <entry key="project.closed" value="66" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="14" />
-          <entry key="project.open.time.11" value="6" />
+          <entry key="project.open.time.11" value="7" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -41,14 +40,14 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="20" />
-          <entry key="project.opened" value="69" />
+          <entry key="project.opened" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="WordSubstitution_648" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="162" />
+          <entry key="java" value="167" />
           <entry key="sql" value="3" />
           <entry key="剑指offer" value="7" />
           <entry key="备份" value="2" />
@@ -58,7 +57,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="162" />
+          <entry key="JAVA" value="167" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="SQL" value="3" />
         </counts>
@@ -66,18 +65,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="96" />
-          <entry key="java" value="74201" />
+          <entry key="java" value="76082" />
           <entry key="sql" value="465" />
-          <entry key="txt" value="918" />
-          <entry key="剑指offer" value="2249" />
+          <entry key="txt" value="930" />
+          <entry key="剑指offer" value="2310" />
           <entry key="备份" value="52" />
           <entry key="知识点" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="74201" />
-          <entry key="PLAIN_TEXT" value="3347" />
+          <entry key="JAVA" value="76082" />
+          <entry key="PLAIN_TEXT" value="3420" />
           <entry key="SQL" value="465" />
         </counts>
       </usages-collector>
@@ -88,39 +87,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state relative-caret-position="503">
+              <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/SearchBST_700.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/MaxDepth_104.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="413">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/IsValidBST_98.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/MinDepth_111.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="127">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BalancedTree/IsBalanced_110.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
               <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/TreeNode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="107">
+              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
+              <folding>
+                <element signature="e#46227#46228#0" expanded="true" />
+                <element signature="e#46266#46267#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,26 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/MissingNumber_268.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/GetIntersectionNode_160.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+            <state relative-caret-position="220">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -208,9 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/database/result.sql" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_83.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/list/CircularList_141.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/CircularList1_141.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/DeleteDuplicateListNode_82.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/ListMiddle_876.java" />
@@ -254,11 +255,14 @@
         <option value="$PROJECT_DIR$/src/com/sjiyuan/hash/IsAnagram_242.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/hash/FirstUniqChar_387.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/list/GetIntersectionNode_160.java" />
-        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/IsValidBST_98.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/SearchBST_700.java" />
         <option value="$PROJECT_DIR$/src/com/sjiyuan/array/MissingNumber_268.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/剑指offer" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/MaxDepth_104.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/BalancedTree/IsBalanced_110.java" />
+        <option value="$PROJECT_DIR$/src/com/sjiyuan/tree/MinDepth_111.java" />
       </list>
     </option>
   </component>
@@ -283,8 +287,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="841" />
+    <option name="y" value="147" />
     <option name="width" value="1480" />
     <option name="height" value="1050" />
   </component>
@@ -372,7 +376,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sjiyuan" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="BinarySearchTree" type="462c0819:PsiDirectoryNode" />
+              <item name="BalancedTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,7 +391,7 @@
     <property name="SearchEverywhereHistoryKey" value="138&#9;PSI&#9;JAVA://com.sjiyuan.list.CopyRandomList_138&#10;112&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/PathSum1_112.java&#10;103&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java&#10;946&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/stack/ValidateStackSequences_946.java&#10;101&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/SymmetricTree_101.java&#10;155&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/stack/MinStack_155.java&#10;102&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/LevelorderTraversal_102.java&#10;54&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/array/SpiralMatrix_54.java&#10;226&#9;FILE&#9;file://D:/ideaProject/LeetCode/src/com/sjiyuan/tree/InvertTree_226.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581090002571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581177198860" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -414,7 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MissingNumber_268">
+  <component name="RunManager" selected="Application.MinDepth_111">
     <configuration name="FirstUniqChar_387 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sjiyuan.hash.FirstUniqChar_387" />
       <module name="LeetCode" />
@@ -428,12 +432,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqChar_387" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.string.FirstUniqChar_387" />
+    <configuration name="MaxDepth_104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.tree.MaxDepth_104" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.string.*" />
+          <option name="PATTERN" value="com.sjiyuan.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,12 +445,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsAnagram_242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.hash.IsAnagram_242" />
+    <configuration name="MinDepth_111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.tree.MinDepth_111" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.hash.*" />
+          <option name="PATTERN" value="com.sjiyuan.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -481,19 +485,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstUniqChar_387" />
-      <item itemvalue="Application.IsAnagram_242" />
       <item itemvalue="Application.FirstUniqChar_387 (1)" />
       <item itemvalue="Application.SearchBST_700" />
       <item itemvalue="Application.MissingNumber_268" />
+      <item itemvalue="Application.MaxDepth_104" />
+      <item itemvalue="Application.MinDepth_111" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinDepth_111" />
+        <item itemvalue="Application.MaxDepth_104" />
         <item itemvalue="Application.MissingNumber_268" />
         <item itemvalue="Application.SearchBST_700" />
         <item itemvalue="Application.FirstUniqChar_387 (1)" />
-        <item itemvalue="Application.IsAnagram_242" />
-        <item itemvalue="Application.FirstUniqChar_387" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +579,8 @@
       <workItem from="1580908380948" duration="105000" />
       <workItem from="1580959785421" duration="2310000" />
       <workItem from="1580974298887" duration="9557000" />
-      <workItem from="1581081586925" duration="6624000" />
+      <workItem from="1581081586925" duration="6721000" />
+      <workItem from="1581169922941" duration="6973000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -717,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580995240289</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="添加268,98,700&#10;268：缺失数字&#10;98：验证二叉搜索树&#10;700：搜索二叉搜索树">
+      <created>1581090035934</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581090035935</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431974000" />
+    <option name="totallyTimeSpent" value="439044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +748,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20040214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -746,7 +758,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35602838" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.16737589" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4141844" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25531915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.21276596" />
@@ -863,7 +875,8 @@
     <MESSAGE value="修改46，添加215,169,51&#10;215：查找第k大的数&#10;46：多数元素&#10;449：N皇后" />
     <MESSAGE value="添加400,263,264&#10;400：查第n大的数&#10;263：丑数&#10;264：丑数2" />
     <MESSAGE value="添加387,242,160&#10;384：字符串中第一个独立字符&#10;242：有效的字母异位词&#10;160：相交链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加387,242,160&#10;384：字符串中第一个独立字符&#10;242：有效的字母异位词&#10;160：相交链表" />
+    <MESSAGE value="添加268,98,700&#10;268：缺失数字&#10;98：验证二叉搜索树&#10;700：搜索二叉搜索树" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加268,98,700&#10;268：缺失数字&#10;98：验证二叉搜索树&#10;700：搜索二叉搜索树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,41 +910,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/LongestPalindrome_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/MinStack_155.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/stack/ValidateStackSequences_946.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -1172,6 +1150,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/SearchBST_700.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/IsValidBST_98.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/GetIntersectionNode_160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/heap/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1892">
@@ -1200,49 +1210,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/list/GetIntersectionNode_160.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/MissingNumber_268.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="220">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/剑指offer">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <state relative-caret-position="503">
+          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/TreeNode.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/SearchBST_700.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/array/MissingNumber_268.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/IsValidBST_98.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="129">
+          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/PostorderTraversal_145.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/BalancedTree/IsBalanced_110.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/MaxDepth_104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sjiyuan/tree/MinDepth_111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
