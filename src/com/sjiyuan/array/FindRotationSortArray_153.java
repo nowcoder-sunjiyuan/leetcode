@@ -35,6 +35,7 @@ public class FindRotationSortArray_153 {
                         return nums[i + 1];
                     }
                 }
+                //等于时的情况
                 return nums[low];
             }
             /**

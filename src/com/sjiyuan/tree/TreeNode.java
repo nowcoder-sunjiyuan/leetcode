@@ -16,5 +16,5 @@ public class TreeNode {
         val = x;
     }
 
-    TreeNode(){}
+    public TreeNode(){}
 }

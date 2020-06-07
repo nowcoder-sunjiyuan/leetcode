@@ -36,7 +36,7 @@ public class DuplicateData_442 {
         for (int i = 0; i < n; i++) {
 
             while (nums[i] != i + 1) {
-
+                //相当于找到了一个重复的数据
                 if (nums[i] == nums[nums[i] - 1]) {
                     if (!result.contains(nums[i])) {
                         result.add(nums[i]);
@@ -55,7 +55,7 @@ public class DuplicateData_442 {
 
 
     public static void main(String args[]) {
-        int nums[] = {2, 3, 1, 1, 2, 5, 3, 6, 7, 8, 6, 9, 7};
+        int nums[] = {2, 3, 1, 0, 2, 5, 3};
         DuplicateData_442 d = new DuplicateData_442();
         System.out.println("结果：" + d.findDuplicates(nums));
     }

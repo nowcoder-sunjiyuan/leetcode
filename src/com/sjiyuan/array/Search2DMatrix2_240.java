@@ -29,8 +29,9 @@ public class Search2DMatrix2_240 {
          * 思想：
          * 从右上角开始，如果
          * 相等：查找到
-         * 大于target：说明所在那一列，都会大于target
-         * 小于target：说明所在那一行，都会小于target
+         * 大于target：说明所在下面列，都会大于target
+         * 小于target：说明所在左边行，都会小于target
+         * 所以是向下或者向左走，超出范围(i < lengthX, j >= 0)后就返回false
          */
         for (i = 0, j = lengthY - 1; i < lengthX && j >= 0;) {
             if (matrix[i][j] == target) {
