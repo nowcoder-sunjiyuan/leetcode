@@ -15,8 +15,6 @@ public class Pow_50 {
 
         long power = n;
 
-
-
         /**
          * 如果x为正数，sign为true
          * 如果x为负数，sign为false
