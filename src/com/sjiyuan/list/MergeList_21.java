@@ -8,6 +8,12 @@ package com.sjiyuan.list;
  * @Version 1.0
  **/
 public class MergeList_21 {
+    /**
+     * 不用新建任何一个节点
+     * @param l1
+     * @param l2
+     * @return
+     */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) return null;
         if (l1 == null) return l2;
