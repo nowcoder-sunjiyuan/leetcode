@@ -11,7 +11,11 @@ import java.util.List;
  * @Version 1.0
  **/
 public class SymmetricTree_101 {
-
+    /**
+     * 前序先左后右，前序先右后左。两个序列相同
+     * @param root
+     * @return
+     */
     public boolean isSymmetric(TreeNode root) {
         List<TreeNode> left = new ArrayList<>();
         List<TreeNode> right = new ArrayList<>();
@@ -19,6 +23,9 @@ public class SymmetricTree_101 {
         preorderTraversalRight(root, right);
         if(left.size() != right.size()) return false;
 
+        /**
+         * 两个序列完全相同才是对称的
+         */
         for(int i = 0; i < left.size(); i++){
             if(left.get(i) == null){
                 if(right.get(i) != null) return false;

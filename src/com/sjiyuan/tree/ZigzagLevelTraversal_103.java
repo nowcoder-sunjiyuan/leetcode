@@ -48,7 +48,7 @@ public class ZigzagLevelTraversal_103 {
             result.add(row);
             order = !order;
             if(stack2.empty()) return result;
-
+            //不空的时候，表示还有下一行，交换stack1与stack2
             Stack<TreeNode> stack = stack1;
             stack1 = stack2;
             stack2 = stack;

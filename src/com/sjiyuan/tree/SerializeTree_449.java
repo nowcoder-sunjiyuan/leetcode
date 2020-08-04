@@ -1,7 +1,5 @@
 package com.sjiyuan.tree;
 
-import com.sjiyuan.array.Search2DMatrix2_240;
-
 import java.util.Stack;
 
 /**
@@ -13,6 +11,7 @@ import java.util.Stack;
  **/
 public class SerializeTree_449 {
     // Encodes a tree to a single string.
+    // 存的是前序遍历顺序
     public String serialize(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         StringBuilder result = new StringBuilder();
@@ -61,7 +60,7 @@ public class SerializeTree_449 {
             TreeNode temp = null;
             if(tag == 0){
                 //上面已经把空节点排除了，所以tag为0时，第一个节点肯定是数字
-                temp = new TreeNode(Integer.valueOf(c));
+                temp = new TreeNode(Integer.parseInt(c));
                 result = temp;
                 pre = temp;
                 tag = 1;
@@ -78,7 +77,7 @@ public class SerializeTree_449 {
                     direction = false;
                     pre = stack.pop();
                 }else{
-                    temp = new TreeNode(Integer.valueOf(c));
+                    temp = new TreeNode(Integer.parseInt(c));
                     if(direction) pre.left = temp;
                     else pre.right = temp;
                     /**

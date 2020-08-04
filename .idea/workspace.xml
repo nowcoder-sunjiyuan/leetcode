@@ -20,14 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject32_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/list/MergeList_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/MergeList_21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/list/CopyRandomList_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/list/CopyRandomList_138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/SerializeTree_449.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/SerializeTree_449.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/SymmetricTree_101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/ZigzagLevelTraversal_103.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +105,13 @@
       <recent name="com.sjiyuan.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Subject17">
-    <configuration name="DuplicateData_442" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.array.DuplicateData_442" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.sort.BubbleSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.array.*" />
+          <option name="PATTERN" value="com.sjiyuan.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subject13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject13" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.sort.QuickSort" />
       <module name="LeetCode" />
-      <option name="PROGRAM_PARAMETERS" value="120" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.offer.*" />
+          <option name="PATTERN" value="com.sjiyuan.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,21 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subject15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject15" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjiyuan.offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Subject16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject16" />
+    <configuration name="Subject29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject29" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +145,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subject17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject17" />
+    <configuration name="Subject33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject33" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjiyuan.offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subject36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject36" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -168,19 +172,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DuplicateData_442" />
-      <item itemvalue="Application.Subject13" />
-      <item itemvalue="Application.Subject15" />
-      <item itemvalue="Application.Subject16" />
-      <item itemvalue="Application.Subject17" />
+      <item itemvalue="Application.Subject29" />
+      <item itemvalue="Application.Subject33" />
+      <item itemvalue="Application.Subject36" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Subject17" />
-        <item itemvalue="Application.Subject16" />
-        <item itemvalue="Application.Subject15" />
-        <item itemvalue="Application.Subject13" />
-        <item itemvalue="Application.DuplicateData_442" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Subject36" />
+        <item itemvalue="Application.Subject33" />
+        <item itemvalue="Application.Subject29" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +293,27 @@
       <workItem from="1592660633445" duration="2335000" />
       <workItem from="1593007785062" duration="2240000" />
       <workItem from="1593010108900" duration="6212000" />
-      <workItem from="1593152137820" duration="18140000" />
+      <workItem from="1593152137820" duration="18201000" />
+      <workItem from="1593230146563" duration="1405000" />
+      <workItem from="1593254463403" duration="7840000" />
+      <workItem from="1593328951079" duration="9659000" />
+      <workItem from="1594475409894" duration="5619000" />
+      <workItem from="1594495388063" duration="2046000" />
+      <workItem from="1594542464546" duration="704000" />
+      <workItem from="1594627290432" duration="3798000" />
+      <workItem from="1594665112388" duration="6000" />
+      <workItem from="1595183524024" duration="7000" />
+      <workItem from="1595190132851" duration="24000" />
+      <workItem from="1595190427679" duration="4258000" />
+      <workItem from="1595237018893" duration="3906000" />
+      <workItem from="1595430958430" duration="2862000" />
+      <workItem from="1595600697709" duration="3322000" />
+      <workItem from="1595666128601" duration="728000" />
+      <workItem from="1595767009661" duration="1246000" />
+      <workItem from="1596292483916" duration="3912000" />
+      <workItem from="1596360477565" duration="4814000" />
+      <workItem from="1596466112430" duration="4000" />
+      <workItem from="1596560159726" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -459,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593017478374</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="添加剑指offer相关:17,18,19,21,22,26">
+      <created>1593185822122</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1593185822122</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -498,7 +529,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="数据库175,176,177&#10;二叉树中序，前序非递归，后序递归,145&#10;二叉树层次遍历,168" />
     <MESSAGE value="单词替换，字典树解决，648" />
     <MESSAGE value="搜索二位矩阵，240&#10;通过前序，中序创建二叉树，105" />
     <MESSAGE value="修改240,105 添加509,232,178" />
@@ -523,7 +553,8 @@
     <MESSAGE value="添加110,104,111&#10;110：判断是否是平衡树&#10;104：树的最大深度&#10;111：树的最小深度" />
     <MESSAGE value="添加2,剑指offer相关&#10;2：两数之和" />
     <MESSAGE value="添加剑指offer相关&#10;12,13,14_1,14_2,15,16" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加剑指offer相关&#10;12,13,14_1,14_2,15,16" />
+    <MESSAGE value="添加剑指offer相关:17,18,19,21,22,26" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加剑指offer相关:17,18,19,21,22,26" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1593016442425">
@@ -538,10 +569,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="828" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591281970718" />
-    <state x="480" y="0" key="CommitChangelistDialog2" timestamp="1593017477468">
+    <state x="480" y="0" key="CommitChangelistDialog2" timestamp="1593185821277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="480" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593017477468" />
+    <state x="480" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593185821277" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1590500804244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -550,54 +581,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="587" y="128" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590500689361" />
-    <state width="1098" height="116" key="GridCell.Tab.0.bottom" timestamp="1593156655536">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1596300357027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
-    <state width="1098" height="116" key="GridCell.Tab.0.center" timestamp="1593156655536">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596300357027" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1596300357027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
-    <state width="1098" height="116" key="GridCell.Tab.0.left" timestamp="1593156655535">
+    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596300357027" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1596300357027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593156655535" />
-    <state width="1098" height="116" key="GridCell.Tab.0.right" timestamp="1593156655536">
+    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596300357027" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1596300357027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
-    <state width="1098" height="116" key="GridCell.Tab.1.bottom" timestamp="1593156655536">
+    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596300357027" />
+    <state width="956" height="205" key="GridCell.Tab.1.bottom" timestamp="1595195267974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
-    <state width="1098" height="116" key="GridCell.Tab.1.center" timestamp="1593156655536">
+    <state width="956" height="205" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595195267974" />
+    <state width="956" height="205" key="GridCell.Tab.1.center" timestamp="1595195267974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
-    <state width="1098" height="116" key="GridCell.Tab.1.left" timestamp="1593156655536">
+    <state width="956" height="205" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595195267974" />
+    <state width="956" height="205" key="GridCell.Tab.1.left" timestamp="1595195267974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
-    <state width="1098" height="116" key="GridCell.Tab.1.right" timestamp="1593156655536">
+    <state width="956" height="205" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595195267974" />
+    <state width="956" height="205" key="GridCell.Tab.1.right" timestamp="1595195267974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1098" height="116" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593156655536" />
+    <state width="956" height="205" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595195267974" />
     <state x="352" y="103" key="SettingsEditor" timestamp="1590679269852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="103" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590679269852" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593017486498">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593185841412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593017486498" />
-    <state x="702" y="219" key="run.anything.popup" timestamp="1593156301061">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593185841412" />
+    <state x="702" y="219" key="run.anything.popup" timestamp="1593254522024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="702" y="219" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593156301061" />
-    <state x="533" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1593181058386">
+    <state x="702" y="219" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593254522024" />
+    <state x="533" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1595237841314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="533" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593181058386" />
+    <state x="533" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595237841314" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,6 +637,11 @@
           <url>file://$PROJECT_DIR$/src/com/sjiyuan/array/MissingNumber_268.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sjiyuan/offer/Subject29.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

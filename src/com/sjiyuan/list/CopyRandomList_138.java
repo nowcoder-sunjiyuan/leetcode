@@ -52,6 +52,9 @@ public class CopyRandomList_138 {
         n = head;
         temp = head.next;
         while(n != null){
+            /**
+             * 在最后节点，temp.next是null，所以把最后的节点额外判断赋值
+             */
             if(n.next.next == null){
                 n.next = null;
                 temp.next = null;
