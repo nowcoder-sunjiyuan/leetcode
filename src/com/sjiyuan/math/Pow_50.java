@@ -20,7 +20,7 @@ public class Pow_50 {
          * 如果x为负数，sign为false
          */
         boolean sign = true;
-        //考虑负数
+        //考虑指数为负数
         if (power < 0) {
             sign = false;
             power = -power;

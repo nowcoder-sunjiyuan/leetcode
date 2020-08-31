@@ -1,9 +1,7 @@
 package com.sjiyuan.tree;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @ClassName PreorderTraversal_144
@@ -15,6 +13,7 @@ import java.util.Stack;
 public class PreorderTraversal_144 {
     /**
      * 递归解法
+     *
      * @param root
      * @return
      */
@@ -26,7 +25,7 @@ public class PreorderTraversal_144 {
     }
 
     public void recursion(TreeNode root, List<Integer> result) {
-        if(root == null) return;
+        if (root == null) return;
         result.add(root.val);
         recursion(root.left, result);
         recursion(root.right, result);
@@ -68,6 +67,49 @@ public class PreorderTraversal_144 {
         return result;
     }
 
+    /**
+     * 非递归方法，第二种实现方式
+     * @param root
+     * @return
+     */
+    public List<Integer> preorder2(TreeNode root) {
+
+        List<Integer> result = new ArrayList<>();
+        if (root == null) return null;
+
+        Deque<TreeNode> stack = new LinkedList<>();
+
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode curr = stack.pop();
+
+            if (curr.right != null) {
+                stack.push(curr.right);
+            }
+            if (curr.left != null) {
+                stack.push(curr.left);
+            }
+            //这里访问
+            result.add(curr.val);
+        }
+        return result;
+    }
+
+    public static void main(String args[]) {
+        TreeNode a = new TreeNode(3);
+        TreeNode b = new TreeNode(9);
+        TreeNode c = new TreeNode(20);
+        TreeNode d = new TreeNode(15);
+        TreeNode e = new TreeNode(7);
+
+        a.left = b;
+        a.right = c;
+        c.left = d;
+        c.right = e;
+
+        PreorderTraversal_144 preorderTraversal_144 = new PreorderTraversal_144();
+        System.out.println("输出：" + preorderTraversal_144.preorder2(a));
+    }
 
 
 }
