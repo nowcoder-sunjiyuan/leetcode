@@ -1,4 +1,6 @@
-package com.sjiyuan.tree;
+package com.sjiyuan.tree.recursion;
+
+import com.sjiyuan.tree.TreeNode;
 
 /**
  * @ClassName MaxDepth_104

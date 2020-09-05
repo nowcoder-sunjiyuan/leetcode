@@ -1,4 +1,4 @@
-package com.sjiyuan.tree.BalancedTree;
+package com.sjiyuan.tree.recursion;
 
 import com.sjiyuan.tree.TreeNode;
 

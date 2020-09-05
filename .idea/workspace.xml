@@ -19,20 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="15，53，62，114，144&#10;15:三数之和&#10;53:最大子数组&#10;62:">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/UniquePaths_62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/BinarySearchTree/NumBST_96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/Flatten_114.java" afterDir="false" />
+    <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/doublepointer/TwoSum_167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question1/climbStairs_70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question1/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question2/minPathSum_64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question2/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question3/NumArray_303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question3/NumArray_303_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/question3/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/FindKthLarge_215_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/recursion/DiameterOfBinaryTree_543.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/array/ThreeSum_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/array/ThreeSum_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/MaxSubArray_53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/math/Pow_50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/IsSubTree_572.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/IsSubTree_572.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/PreorderTraversal_144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/PreorderTraversal_144.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/array/FindKthLarge_215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/FindKthLarge_215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/BalancedTree/IsBalanced_110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/recursion/IsBalanced_110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/tree/MaxDepth_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/tree/recursion/MaxDepth_104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sjiyuan/备份" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sjiyuan/备份" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +97,26 @@
       <recent name="com.sjiyuan.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum_15">
+  <component name="RunManager" selected="Application.FindKthLarge_215">
+    <configuration name="FindKthLarge_215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.sort.FindKthLarge_215" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjiyuan.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.test.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.laji.Main" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.test.*" />
+          <option name="PATTERN" value="com.sjiyuan.laji.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumBST_96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.tree.BinarySearchTree.NumBST_96" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.laji.Main2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.tree.BinarySearchTree.*" />
+          <option name="PATTERN" value="com.sjiyuan.laji.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreorderTraversal_144" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.tree.PreorderTraversal_144" />
+    <configuration name="NumArray_303" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.dp.question3.NumArray_303" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.tree.*" />
+          <option name="PATTERN" value="com.sjiyuan.dp.question3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,25 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.array.ThreeSum_15" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.laji.test" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePaths_62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.dp.UniquePaths_62" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjiyuan.dp.*" />
+          <option name="PATTERN" value="com.sjiyuan.laji.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,19 +164,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.UniquePaths_62" />
-      <item itemvalue="Application.NumBST_96" />
-      <item itemvalue="Application.PreorderTraversal_144" />
-      <item itemvalue="Application.ThreeSum_15" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.NumArray_303" />
+      <item itemvalue="Application.FindKthLarge_215" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreeSum_15" />
-        <item itemvalue="Application.PreorderTraversal_144" />
-        <item itemvalue="Application.NumBST_96" />
-        <item itemvalue="Application.UniquePaths_62" />
+        <item itemvalue="Application.FindKthLarge_215" />
+        <item itemvalue="Application.NumArray_303" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +315,9 @@
       <workItem from="1598571439681" duration="1966000" />
       <workItem from="1598647153500" duration="67000" />
       <workItem from="1598683721041" duration="5443000" />
-      <workItem from="1598731584066" duration="14921000" />
+      <workItem from="1598731584066" duration="19436000" />
+      <workItem from="1599055557243" duration="9299000" />
+      <workItem from="1599262238036" duration="17996000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -497,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596561400474</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="15，53，62，114，144&#10;15:三数之和&#10;53:最大子数组&#10;62:不同路径&#10;114:二叉树展开&#10;144:树前序遍历非递归第二种操作">
+      <created>1598835476405</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1598835476405</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -536,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="搜索二位矩阵，240&#10;通过前序，中序创建二叉树，105" />
     <MESSAGE value="修改240,105 添加509,232,178" />
     <MESSAGE value="修改232 添加180,225,912" />
     <MESSAGE value="修改225 添加153,79,181&#10;修改：双队列实现栈&#10;添加：旋转排序数组中的最小值，单词搜索，超过经理收入的员工" />
@@ -561,7 +571,8 @@
     <MESSAGE value="添加剑指offer相关&#10;12,13,14_1,14_2,15,16" />
     <MESSAGE value="添加剑指offer相关:17,18,19,21,22,26" />
     <MESSAGE value="添加剑指offer相关:27,29,32_1,33,36,37&#10;冒泡，快排" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加剑指offer相关:27,29,32_1,33,36,37&#10;冒泡，快排" />
+    <MESSAGE value="15，53，62，114，144&#10;15:三数之和&#10;53:最大子数组&#10;62:不同路径&#10;114:二叉树展开&#10;144:树前序遍历非递归第二种操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="15，53，62，114，144&#10;15:三数之和&#10;53:最大子数组&#10;62:不同路径&#10;114:二叉树展开&#10;144:树前序遍历非递归第二种操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1593016442425">
@@ -572,6 +583,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="234" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591977081229" />
+    <state x="882" y="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599262366363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="882" y="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599262366363" />
     <state x="828" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1598735599227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -580,50 +595,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="229" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598522597741" />
-    <state x="602" y="0" key="CommitChangelistDialog2" timestamp="1598835353805">
+    <state x="602" y="0" key="CommitChangelistDialog2" timestamp="1598835475504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="602" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598835353805" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1590500804244">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1590500804244" />
+    <state x="602" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598835475504" />
     <state x="587" y="128" key="FileChooserDialogImpl" timestamp="1598735986946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="587" y="128" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598735986946" />
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1598832969911">
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598832969911" />
-    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1598832969911">
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598832969911" />
-    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1598832969911">
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598832969911" />
-    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1598832969911">
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598832969911" />
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1598733938759">
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.1.bottom" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598733938759" />
-    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1598733938759">
+    <state width="1493" height="215" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.1.center" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598733938759" />
-    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1598733938759">
+    <state width="1493" height="215" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.1.left" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598733938759" />
-    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1598733938759">
+    <state width="1493" height="215" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1493" height="215" key="GridCell.Tab.1.right" timestamp="1599320785934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598733938759" />
+    <state width="1493" height="215" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
     <state x="352" y="103" key="SettingsEditor" timestamp="1590679269852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -640,10 +651,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="702" y="219" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598734180175" />
-    <state x="534" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1598486242445">
+    <state x="534" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1599291990914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="534" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598486242445" />
+    <state x="534" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599291990914" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

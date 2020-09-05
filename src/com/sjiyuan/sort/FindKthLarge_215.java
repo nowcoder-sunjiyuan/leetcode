@@ -1,4 +1,4 @@
-package com.sjiyuan.array;
+package com.sjiyuan.sort;
 
 import java.util.Random;
 
@@ -46,7 +46,10 @@ public class FindKthLarge_215 {
      */
     public int partition(int[] nums, int start, int end) {
 
-        if(start == end) return start;
+        if (start == end) return start;
+        /**
+         * 选出随机的，然后和start位置的数据交换
+         */
         Random random_num = new Random();
         int pivot_index = start + random_num.nextInt(end - start);
         swap(pivot_index, start, nums);
@@ -74,10 +77,10 @@ public class FindKthLarge_215 {
     }
 
     public static void main(String args[]) {
-        int[] nums = {3, 2, 1, 5, 6, 4};
+        int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
 
-        FindKthLarge_215 findKthLarge_215 = new FindKthLarge_215();
-        int kthLargest = findKthLarge_215.findKthLargest(nums, 3);
+        FindKthLarge_215_2 findKthLarge_215 = new FindKthLarge_215_2();
+        int kthLargest = findKthLarge_215.findKthLargest(nums, 4);
         System.out.println(kthLargest);
     }
 }
