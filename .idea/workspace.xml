@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebc206ba-07c3-4ece-984e-ae28b0c7486d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dichotomy/MySqrt_69.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/doublepointer/JudgeSquareSum_633.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/greedy/FindContentChildren_455.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/doublepointer/ReverseVowels_345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/dp/LongestCommonSubsequence_1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/offer/Subject51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sjiyuan/sort/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581177347373" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -86,22 +87,9 @@
       <recent name="com.sjiyuan.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MySqrt_69">
-    <configuration name="FindContentChildren_455" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.greedy.FindContentChildren_455" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjiyuan.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindKthLarge_215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.sort.FindKthLarge_215" />
+  <component name="RunManager" selected="Application.LongestCommonSubsequence_1143">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.sort.HeapSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JudgeSquareSum_633" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.doublepointer.JudgeSquareSum_633" />
+    <configuration name="LongestCommonSubsequence_1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.dp.LongestCommonSubsequence_1143" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.doublepointer.*" />
+          <option name="PATTERN" value="com.sjiyuan.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +127,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.laji.Test2" />
+    <configuration name="ReverseVowels_345" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.doublepointer.ReverseVowels_345" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjiyuan.laji.*" />
+          <option name="PATTERN" value="com.sjiyuan.doublepointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subject51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sjiyuan.offer.Subject51" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjiyuan.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindKthLarge_215" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.JudgeSquareSum_633" />
-      <item itemvalue="Application.FindContentChildren_455" />
       <item itemvalue="Application.MySqrt_69" />
+      <item itemvalue="Application.ReverseVowels_345" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.Subject51" />
+      <item itemvalue="Application.LongestCommonSubsequence_1143" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequence_1143" />
+        <item itemvalue="Application.Subject51" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.ReverseVowels_345" />
         <item itemvalue="Application.MySqrt_69" />
-        <item itemvalue="Application.FindContentChildren_455" />
-        <item itemvalue="Application.JudgeSquareSum_633" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.FindKthLarge_215" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +316,14 @@
       <workItem from="1599965460840" duration="1218000" />
       <workItem from="1602382195127" duration="2042000" />
       <workItem from="1603028380139" duration="59000" />
-      <workItem from="1603028453019" duration="6225000" />
+      <workItem from="1603028453019" duration="6697000" />
+      <workItem from="1603377064233" duration="7597000" />
+      <workItem from="1603594293511" duration="3134000" />
+      <workItem from="1605172307604" duration="1202000" />
+      <workItem from="1605251365343" duration="1437000" />
+      <workItem from="1605320445281" duration="1061000" />
+      <workItem from="1605322292417" duration="3000" />
+      <workItem from="1610798237246" duration="9715000" />
     </task>
     <task id="LOCAL-00001" summary="648，单词替换&#10;94,144 树遍历递归">
       <created>1577959853943</created>
@@ -513,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599321154787</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="69,633,455&#10;69：求平方数（二分法）&#10;633：平方数之和（双指针）&#10;455：分发饼干（贪婪算法）">
+      <created>1603037439032</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603037439032</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -552,7 +567,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="修改232 添加180,225,912" />
     <MESSAGE value="修改225 添加153,79,181&#10;修改：双队列实现栈&#10;添加：旋转排序数组中的最小值，单词搜索，超过经理收入的员工" />
     <MESSAGE value="修改79 添加191,343,182&#10;修改：单词搜索&#10;添加：位1的个数，整数拆分，查找重复的电子邮箱" />
     <MESSAGE value="添加183,184,905,83,237,50,65&#10;添加：从不订购的客户，部门工资最高的员工，奇偶排序数组，删除重复链表节点1，删除链表节点（O(1)），pow()函数实现，判断是否有效数字" />
@@ -577,94 +591,86 @@
     <MESSAGE value="添加剑指offer相关:27,29,32_1,33,36,37&#10;冒泡，快排" />
     <MESSAGE value="15，53，62，114，144&#10;15:三数之和&#10;53:最大子数组&#10;62:不同路径&#10;114:二叉树展开&#10;144:树前序遍历非递归第二种操作" />
     <MESSAGE value="167，70，64，303，543&#10;167：有序数组两数和&#10;70：登楼梯（dp斐波那契）&#10;64：最小路径和&#10;303：区域和检索（dp）&#10;543：二叉树直径" />
-    <option name="LAST_COMMIT_MESSAGE" value="167，70，64，303，543&#10;167：有序数组两数和&#10;70：登楼梯（dp斐波那契）&#10;64：最小路径和&#10;303：区域和检索（dp）&#10;543：二叉树直径" />
+    <MESSAGE value="69,633,455&#10;69：求平方数（二分法）&#10;633：平方数之和（双指针）&#10;455：分发饼干（贪婪算法）" />
+    <option name="LAST_COMMIT_MESSAGE" value="69,633,455&#10;69：求平方数（二分法）&#10;633：平方数之和（双指针）&#10;455：分发饼干（贪婪算法）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="882" y="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599262366363">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="882" y="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599262366363" />
-    <state x="828" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1599747548105">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="828" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/7.-1080.1920.1040@0.0.1536.824" timestamp="1599747548105" />
-    <state x="828" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598735599227" />
     <state x="770" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603033571076">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="770" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603033571076" />
-    <state x="531" y="229" key="#xdebugger.evaluate" timestamp="1598522597741">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="531" y="229" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598522597741" />
-    <state x="602" y="0" key="CommitChangelistDialog2" timestamp="1599321153706">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="602" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599321153706" />
-    <state x="587" y="128" key="FileChooserDialogImpl" timestamp="1598735986946">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="587" y="128" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598735986946" />
-    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1603036971136">
+    <state x="753" y="0" key="CommitChangelistDialog2" timestamp="1603037438197">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599838560773" />
+    <state x="753" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603037438197" />
+    <state x="734" y="162" key="FileChooserDialogImpl" timestamp="1605321202249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="162" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605321202249" />
+    <state width="1877" height="11" key="GridCell.Tab.0.bottom" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.0.bottom/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.0.center" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599838560772" />
+    <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.0.center/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.0.left" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599838560772" />
+    <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.0.left/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.0.right" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599838560772" />
+    <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.1.bottom" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.0.right/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.1.bottom" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1877" height="254" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.1.center" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.1.bottom/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.1.center" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1877" height="254" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.1.left" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.1.center/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.1.left" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1877" height="254" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
-    <state width="1877" height="300" key="GridCell.Tab.1.right" timestamp="1603036971136">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="11" key="GridCell.Tab.1.left/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
+    <state width="1877" height="11" key="GridCell.Tab.1.right" timestamp="1610814548894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599320785934" />
+    <state width="1877" height="254" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603597456888" />
     <state width="1877" height="300" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603036971136" />
+    <state width="1877" height="11" key="GridCell.Tab.1.right/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610814548894" />
     <state x="662" y="163" width="998" height="708" key="SettingsEditor" timestamp="1603034184633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="662" y="163" width="998" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603034184633" />
-    <state x="501" y="167" key="Vcs.Push.Dialog.v2" timestamp="1599321163682">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="626" y="219" key="Vcs.Push.Dialog.v2" timestamp="1603037444865">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="501" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599321163682" />
-    <state x="297" y="149" width="1180" height="655" key="new project wizard" timestamp="1598647217341">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="626" y="219" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603037444865" />
+    <state x="282" y="142" width="1180" height="655" key="new project wizard" timestamp="1605321510833">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="297" y="149" width="1180" height="655" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598647217341" />
-    <state x="702" y="219" key="run.anything.popup" timestamp="1598734180175">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="702" y="219" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598734180175" />
+    <state x="282" y="142" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605321510833" />
+    <state x="297" y="149" width="1180" height="655" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605253510900" />
     <state x="668" y="191" width="840" height="889" key="search.everywhere.popup" timestamp="1603036595886">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="534" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599291990914" />
     <state x="668" y="191" width="840" height="889" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603036595886" />
   </component>
   <component name="XDebuggerManager">
