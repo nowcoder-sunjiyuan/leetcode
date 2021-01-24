@@ -3,12 +3,12 @@ package com.sjiyuan.sort;
 import java.util.Arrays;
 
 public class QuickSort {
-    public int[] quickSort(int nums[]) {
+    public int[] quickSort(int[] nums) {
         quickSort(nums, 0, nums.length - 1);
         return nums;
     }
 
-    public void quickSort(int nums[], int begin, int end) {
+    public void quickSort(int[] nums, int begin, int end) {
         if (begin >= end) return;
         int pivot = nums[begin];
 

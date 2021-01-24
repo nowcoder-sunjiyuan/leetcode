@@ -62,7 +62,6 @@ public class ImplementationQueue_232 {
      * Returns whether the queue is empty.
      */
     public boolean empty() {
-        if(stack_1.isEmpty() && stack_2.isEmpty()) return true;
-        else return false;
+        return stack_1.isEmpty() && stack_2.isEmpty();
     }
 }

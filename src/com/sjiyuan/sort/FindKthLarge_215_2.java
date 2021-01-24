@@ -1,5 +1,8 @@
 package com.sjiyuan.sort;
 
+/**
+ * 9ms,击败 34.90%
+ */
 public class FindKthLarge_215_2 {
     public int findKthLargest(int[] nums, int k) {
         int index = partition(0, nums.length - 1, nums);

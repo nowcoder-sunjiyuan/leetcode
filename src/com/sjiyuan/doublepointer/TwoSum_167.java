@@ -1,12 +1,7 @@
 package com.sjiyuan.doublepointer;
 
-import com.sun.jmx.snmp.SnmpUnknownMsgProcModelException;
-
-import javax.print.attribute.EnumSyntax;
-import java.util.EnumSet;
-
 /**
- * 有序数组的两数之和，太简单了吧，双指着
+ * 有序数组的两数之和，太简单了吧，双指针
  */
 public class TwoSum_167 {
     public int[] twoSum(int[] numbers, int target) {

@@ -52,17 +52,20 @@ public class MySqrt_69 {
             if (temp == current) {
                 return current;
             } else if (temp < current) {
+                // 此时说明current大了，end变current
                 end = current;
             } else {
+                // 此时说明current小了，start变current
                 start = current;
             }
         }
+        //start + 1 = end的时候，说明结果start - end之间，此时取小的那个
         return start;
     }
 
 
     public static void main(String[] args) {
         MySqrt_69 mySqrt_69 = new MySqrt_69();
-        System.out.println(mySqrt_69.mySqrt_2(2147483647));
+        System.out.println(mySqrt_69.mySqrt_2(8));
     }
 }
