@@ -27,7 +27,7 @@ public class CountPrimes_204 {
             if (result[i]) {
                 ans++;
                 /**
-                 * 如果x * x > n,已经超出范围了
+                 * 如果x * x > n,没超过范围
                  */
                 if ((long) i * i < n) {
                     for (int j = i * i; j < n; j = j + i) {

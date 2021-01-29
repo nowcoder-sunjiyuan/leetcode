@@ -1,4 +1,4 @@
-package com.sjiyuan.dp;
+package com.sjiyuan.dp.question4;
 
 /**
  * @ClassName IntegerPartition_343

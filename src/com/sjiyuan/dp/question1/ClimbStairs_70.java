@@ -3,7 +3,7 @@ package com.sjiyuan.dp.question1;
 /**
  * 爬楼梯
  */
-public class climbStairs_70 {
+public class ClimbStairs_70 {
     public int climbStairs(int n) {
         if (n <= 0) return 0;
         if (n == 1) return 1;

@@ -1,4 +1,4 @@
-package com.sjiyuan.search;
+package com.sjiyuan.search.BFS;
 
 import java.util.LinkedList;
 import java.util.Queue;

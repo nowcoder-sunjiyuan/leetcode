@@ -3,7 +3,7 @@ package com.sjiyuan.dp.question2;
 /**
  * 最小路径和
  */
-public class minPathSum_64 {
+public class MinPathSum_64 {
     public int minPathSum(int[][] grid) {
 
         int m = grid.length;
