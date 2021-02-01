@@ -63,9 +63,7 @@ public class ImplementationStack_225 {
         queue_2 = temp;
 
         Integer data = queue_2.poll();
-        if (data != null) {
-            queue_1.offer(data);
-        }
+        queue_1.offer(data);
         //拆装箱会出现空指针，但题目假设不会出现这种情况
         return data;
     }
