@@ -31,7 +31,7 @@ public class BuildTreeFromPreIn_105 {
         if (j1 < j) {
             int length = j - j1;
             treeNode.left = new TreeNode();
-            buildRecursion(treeNode.left, preorder, inorder, i1 + 1, i1 + length, j1, j1 + length - 1);
+            buildRecursion(treeNode.left, preorder, inorder, i1 + 1, i1 + length, j1, j - 1);
         }
         //存在右子树
         if (j < j2) {

@@ -1,4 +1,4 @@
-package com.sjiyuan.sort;
+package com.sjiyuan.sort.bucket;
 
 import java.util.ArrayList;
 import java.util.HashMap;

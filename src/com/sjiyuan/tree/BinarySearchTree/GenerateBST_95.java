@@ -22,10 +22,12 @@ public class GenerateBST_95 {
     public List<TreeNode> generate(int start, int end) {
 
         List<TreeNode> result = new ArrayList<>();
+        //相等说明只有一个节点，如果start > end只有一个null节点
         if(start > end) {
             result.add(null);
             return result;
         }
+        //遍历每一个数字，其都可以充当根节点
         for (int i = start; i <= end; i++) {
 
             //构造左子树

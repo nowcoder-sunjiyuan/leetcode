@@ -26,6 +26,12 @@ public class IsSubTree_572 {
             if (s != null) {
                 stack.push(s);
                 if (s.val == t.val) {
+                    /**
+                     * 此题是判断是否是子树，直接判断是否相等就行
+                     * 如果是判断是否含有其结构，这样调用：
+                     * sameTree_100.isSameTree(t, s)
+                     * 判断即可
+                     */
                     if (sameTree_100.isSameTree(s, t)) {
                         return true;
                     }

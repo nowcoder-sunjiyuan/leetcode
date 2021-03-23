@@ -12,17 +12,17 @@ import com.sjiyuan.tree.TreeNode;
 public class IsValidBST_98 {
 
     public boolean isValidBST(TreeNode root) {
-        return isValidBST_recursion(root, 0, 0, false, false);
+        return isValidBST_recursion(root, Long.MAX_VALUE, Long.MIN_VALUE);
     }
 
-    public boolean isValidBST_recursion(TreeNode node, int upperLimit, int lowerLimit, boolean hasUpper, boolean hasLower) {
+    public boolean isValidBST_recursion(TreeNode node, long upperLimit, long lowerLimit) {
 
         if (node == null) return true;
 
         int value = node.val;
 
-        if (hasLower && value <= lowerLimit) return false;
-        if (hasUpper && value >= upperLimit) return false;
+        if (value <= lowerLimit) return false;
+        if (value >= upperLimit) return false;
 
         if (node.left != null) {
             if (node.left.val >= value) return false;
@@ -31,7 +31,7 @@ public class IsValidBST_98 {
             if (node.right.val <= value) return false;
         }
 
-        return isValidBST_recursion(node.left, value, lowerLimit, true, hasLower)
-                && isValidBST_recursion(node.right, upperLimit, value, hasUpper, true);
+        return isValidBST_recursion(node.left, value, lowerLimit)
+                && isValidBST_recursion(node.right, upperLimit, value);
     }
 }

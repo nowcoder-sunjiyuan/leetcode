@@ -12,7 +12,7 @@ public class NumBST_96 {
      * G(n) = F(1, n) + F(2, n) + ... + F(n, n)
      * F(i, n)的值是i为根节点后，左子树数量和右子树数量的笛卡尔积
      * <p>
-     * F(i, n) = G({i-1}) * G({n-i})xcv
+     * F(i, n) = G({i-1}) * G({n-i})
      * 解释：G({i-1})代表i为根节点后，1节点 - i-1节点二叉搜索树数量，是左子树的二叉搜索树的数量，同理有G({n-i})
      * <p>
      * G(2) = F(1, 2) + F(2, 2)
@@ -31,9 +31,9 @@ public class NumBST_96 {
         nums[1] = 1;
         for (int i = 2; i < n + 1; i++) {
             //表示从根节点是j节点，从1加到i
-            for (int j = 1; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 // 内循环为了求F，j代表以j为根节点
-                nums[i] += (nums[j - 1] * nums[i - j]);
+                nums[i] += (nums[j] * nums[i - 1 - j]);
             }
         }
         return nums[n];

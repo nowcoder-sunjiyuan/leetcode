@@ -28,7 +28,7 @@ public class SameTree_100 {
     }
 
     /**
-     * 判断两个树是否相同，非递归代码
+     * 判断两个树是否相同，非递归代码，就是单纯前序遍历，看是否相同
      * @param p
      * @param q
      * @return

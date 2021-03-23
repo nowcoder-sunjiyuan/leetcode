@@ -42,6 +42,20 @@ public class InvertTree_226 {
         return root;
     }
 
+    /**
+     * 用递归遍历的方式实现
+     * @param root
+     * @return
+     */
+    public TreeNode invertTree2(TreeNode root){
+        if(root == null) return null;
+        TreeNode left = invertTree2(root.left);
+        TreeNode right = invertTree2(root.right);
+        root.left = right;
+        root.right = left;
+        return root;
+    }
+
 
     public static void main(String args[]) {
         TreeNode root = new TreeNode(4);
