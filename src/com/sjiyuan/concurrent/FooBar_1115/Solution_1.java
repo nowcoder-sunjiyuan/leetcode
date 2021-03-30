@@ -1,4 +1,4 @@
-package com.sjiyuan.concurrent.FooBar_1151;
+package com.sjiyuan.concurrent.FooBar_1115;
 
 import java.util.concurrent.Semaphore;
 
@@ -8,11 +8,11 @@ import java.util.concurrent.Semaphore;
  * @author: 孙济远
  * @create: 2021-03-24 01:38
  */
-public class solution_1 {
+public class Solution_1 {
     private int n;
     private Semaphore one = new Semaphore(1);
     private Semaphore two = new Semaphore(0);
-    public solution_1(int n) {
+    public Solution_1(int n) {
         this.n = n;
     }
 
