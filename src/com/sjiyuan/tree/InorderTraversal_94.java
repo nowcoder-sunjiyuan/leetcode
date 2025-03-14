@@ -67,5 +67,33 @@ public class InorderTraversal_94 {
         }
         return result;
     }
+
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.add(root);
+        while (stack.peek() != null) {
+            if (stack.peek().left != null) {
+                stack.add(stack.peek().left);
+                continue;
+            } else {
+                TreeNode pop = stack.pop();
+                result.add(pop.val);
+                if (pop.right != null) {
+                    stack.add(pop.right);
+                    continue;
+                } else {
+                    if (!stack.isEmpty()) {
+                        stack.peek().left = null;
+                    }
+                    continue;
+                }
+            }
+        }
+        return result;
+    }
 }
 
